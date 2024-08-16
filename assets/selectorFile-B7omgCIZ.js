@@ -1,0 +1,1 @@
+import{v as t}from"./index-Cp-BQQFr.js";const m=e=>e.products.data,s=e=>t([m,(n,a)=>a],(n,a)=>e(n[a])),i=s(e=>(e==null?void 0:e.productDescription)??[]),b=s(e=>(e==null?void 0:e.consumers)??[]),c=s(e=>(e==null?void 0:e.references)??[]),f=s(e=>(e==null?void 0:e.teamMembers)??[]);export{b as a,c as b,f as c,i as g};
