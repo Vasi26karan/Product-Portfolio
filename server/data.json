@@ -1,0 +1,217 @@
+{
+  "idp":{
+    "productDescription":{
+    "intro":"The first step in IoT device management is device provisioning; getting your devices and sensors configured safely and efficiently in your network to upload their data securely. IoT device provisioning is one of the first steps you must take when developing your IoT network. Think of it as setting up a mobile phone when you first buy one; you take it out of the box and turn it on. You select the language, connect to the Wi-Fi network, activate the device on the mobile data network and an array of other steps. IoT devices work in a similar way on your enterprise network to ensure they work safely and as intended. The term provisioning for a device means to evolve a device to a state in which it can be handed off to an end-user for their specific use in a functional manner. Provisioning means providing or making something available, so your mobile phone becomes user friendly or the IoT device is connected to the network so it can start tracking the equipment characteristics." ,
+    "assests": [{"images":
+                          [{ "img": "/idp/images/overviewPage/idpImage1.jpg", "title": "img1" },
+                          { "img": "/idp/images/overviewPage/idpImage2.jpg", "title": "img2" },
+                          { "img": "/idp/images/overviewPage/idpImage3.jpg", "title": "img3" },
+                          { "img": "/idp/images/overviewPage/idpImage4.jpg", "title": "img4" },
+                          { "img": "/idp/images/overviewPage/idpImage5.jpg", "title": "img5" }]
+                },
+                {"videos": [
+                  { "video": "https://media.w3.org/2010/05/sintel/trailer_hd.mp4", "title": "tutorial" }
+                ]}
+
+      ],
+    "working":"Each device needs to be added to your ERP (Enterprise Resource Planning) system and whatever IoT platform you are using, and then linked to the equipment it is monitoring. These platforms should be linked, or else ensure your IoT platform is able to display the necessary equipment and environment alerts that these devices monitor if something uncharacteristic of the machine starts occurring. The device can upload this data that triggers the warnings or outcomes in a multitude of ways; either the sensor directly adds the data to the platform, or the sensor first sends this data to an edge gateway and it then uploads the data. The device communicates with either the platform or edge device with a secure connection like TLS/SSL certificates or else with tokens which need usernames and passwords. There are a myriad ways you get these tokens and certificates onto the actual device, but the most common and error-free way is to develop an automated process that creates a unique certificate whenever a new device comes onto the system. That way, the manufacturers don’t have access to the device and it’s quicker for you to provision the device. " ,
+    "deviceTypes":"" 
+  },
+
+  "references":[
+    {
+      "id":1,
+      "link":"https://www.sciencedirect.com/science/article/pii/S0378779624000324" ,
+      "label":"Reference 1"
+    },
+    {
+      "id":2,
+      "link":"https://www.sciencedirect.com/science/article/pii/S0378779624000324" ,
+      "label":"Reference 2"
+    },
+    {
+      "id":3,
+      "link":"https://www.sciencedirect.com/science/article/pii/S0378779624000324" ,
+      "label":"Reference 3"
+    },
+    {
+      "id":4,
+      "link":"https://www.sciencedirect.com/science/article/pii/S0378779624000324" ,
+      "label":"Reference 4"
+    }
+  ],
+
+  "consumers":[
+    {
+      "id":1,
+      "user":"Technician" ,
+      "image":"/idp/images/consumersPage/consumersPageTechnician.jpg",
+      "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae reprehenderit ad ipsam laboriosam amet nesciunt dolores numquam iure, commodi eligendi."
+    },
+    {
+      "id":2,
+      "user":"Operators" ,
+      "image":"/idp/images/consumersPage/consumersPageOperators.jpg",
+      "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae reprehenderit ad ipsam laboriosam amet nesciunt dolores numquam iure, commodi eligendi."
+    },
+    {
+      "id":3,
+      "user":"KMOC Team" ,
+      "image":"/idp/images/consumersPage/consumersPageKmoc.jpg",
+      "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae reprehenderit ad ipsam laboriosam amet nesciunt dolores numquam iure, commodi eligendi."
+    }
+  ],
+
+  "teamMembers":[
+    {
+      "id":1,
+      "name":"Minhaj" ,
+      "pic":"/idp/images/teamMembersPage/person1.jpg" ,
+      "designation":"Designation" ,
+      "developmentType":"Development Type"
+    },
+    {
+      "id":2,
+      "name":"Name" ,
+      "pic":"/idp/images/teamMembersPage/person2.jpg" ,
+      "designation":"Designation" ,
+      "developmentType":"Development Type"
+    },
+    {
+      "id":3,
+      "name":"Name" ,
+      "pic":"/idp/images/teamMembersPage/person3.jpg" ,
+      "designation":"Designation" ,
+      "developmentType":"Development Type"
+    },
+    {
+      "id":4,
+      "name":"Name" ,
+      "pic":"/idp/images/teamMembersPage/person4.jpg" ,
+      "designation":"Designation" ,
+      "developmentType":"Development Type"
+    },
+    {
+      "id":5,
+      "name":"Name" ,
+      "pic":"/idp/images/teamMembersPage/person5.jpg" ,
+      "designation":"Designation" ,
+      "developmentType":"Development Type"
+    }
+  ]},
+
+
+
+  "idm":{
+    "productDescription":{
+      "intro":"The first step in IoT device management is device provisioning; getting your devices and sensors configured safely and efficiently in your network to upload their data securely. IoT device provisioning is one of the first steps you must take when developing your IoT network. Think of it as setting up a mobile phone when you first buy one; you take it out of the box and turn it on. You select the language, connect to the Wi-Fi network, activate the device on the mobile data network and an array of other steps. IoT devices work in a similar way on your enterprise network to ensure they work safely and as intended. The term provisioning for a device means to evolve a device to a state in which it can be handed off to an end-user for their specific use in a functional manner. Provisioning means providing or making something available, so your mobile phone becomes user friendly or the IoT device is connected to the network so it can start tracking the equipment characteristics." ,
+      "assests": [{"images":
+                            [{ "img": "/idm/images/overviewPage/idmImage1.jpg", "title": "img1" },
+                            { "img": "/idm/images/overviewPage/idmImage2.jpg", "title": "img2" },
+                            { "img": "/idm/images/overviewPage/idmImage3.jpg", "title": "img3" },
+                            { "img": "/idm/images/overviewPage/idmImage4.jpg", "title": "img4" },
+                            { "img": "/idm/images/overviewPage/idmImage5.jpg", "title": "img5" }]
+                    },
+                    {"videos": [
+                      { "video": "https://media.w3.org/2010/05/sintel/trailer_hd.mp4", "title": "tutorial" }
+                    ]}
+
+] ,
+      "working":"Each device needs to be added to your ERP (Enterprise Resource Planning) system and whatever IoT platform you are using, and then linked to the equipment it is monitoring. These platforms should be linked, or else ensure your IoT platform is able to display the necessary equipment and environment alerts that these devices monitor if something uncharacteristic of the machine starts occurring. The device can upload this data that triggers the warnings or outcomes in a multitude of ways; either the sensor directly adds the data to the platform, or the sensor first sends this data to an edge gateway and it then uploads the data. The device communicates with either the platform or edge device with a secure connection like TLS/SSL certificates or else with tokens which need usernames and passwords. There are a myriad ways you get these tokens and certificates onto the actual device, but the most common and error-free way is to develop an automated process that creates a unique certificate whenever a new device comes onto the system. That way, the manufacturers don’t have access to the device and it’s quicker for you to provision the device. " ,
+      "deviceTypes":"" 
+    },
+  
+    "references":[
+      {
+        "id":1,
+        "link":"https://www.sciencedirect.com/science/article/pii/S0378779624000324" ,
+        "label":"Reference 1"
+      },
+      {
+        "id":2,
+        "link":"https://www.sciencedirect.com/science/article/pii/S0378779624000324" ,
+        "label":"Reference 2"
+      },
+      {
+        "id":3,
+        "link":"https://www.sciencedirect.com/science/article/pii/S0378779624000324" ,
+        "label":"Reference 3"
+      },
+      {
+        "id":4,
+        "link":"https://www.sciencedirect.com/science/article/pii/S0378779624000324" ,
+        "label":"Reference 4"
+      }
+    ],
+  
+    "consumers":[
+      {
+        "id":1,
+        "user":"Technician" ,
+        "image":"/idm/images/consumersPage/consumersPageTechnician.jpg",
+        "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae reprehenderit ad ipsam laboriosam amet nesciunt dolores numquam iure, commodi eligendi."
+      },
+      {
+        "id":2,
+        "user":"Operators" ,
+        "image":"/idm/images/consumersPage/consumersPageOperators.jpg",
+        "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae reprehenderit ad ipsam laboriosam amet nesciunt dolores numquam iure, commodi eligendi."
+      },
+      {
+        "id":3,
+        "user":"KMOC Team" ,
+        "image":"/idm/images/consumersPage/consumersPageKmoc.jpg",
+        "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae reprehenderit ad ipsam laboriosam amet nesciunt dolores numquam iure, commodi eligendi."
+      }
+    ],
+  
+    "teamMembers":[
+      {
+        "id":1,
+        "name":"Name" ,
+        "pic":"/idm/images/teamMembersPage/person1.jpg" ,
+        "designation":"Designation" ,
+        "developmentType":"Development Type",
+        "email":"vasi26karan@gmail.com",
+        "linkedin":"https://www.linkedin.com/in/vasikaran-r-a23107282/"
+      },
+      {
+        "id":2,
+        "name":"Name" ,
+        "pic":"/idm/images/teamMembersPage/person2.jpg" ,
+        "designation":"Designation" ,
+        "developmentType":"Development Type"
+      },
+      {
+        "id":3,
+        "name":"Name" ,
+        "pic":"/idm/images/teamMembersPage/person3.jpg" ,
+        "designation":"Designation" ,
+        "developmentType":"Development Type"
+      },
+      {
+        "id":4,
+        "name":"vasikaran" ,
+        "pic":"/idm/images/teamMembersPage/person4.jpg" ,
+        "designation":"Designation" ,
+        "developmentType":"Development Type"
+      },
+      {
+        "id":5,
+        "name":"Name" ,
+        "pic":"/idm/images/teamMembersPage/person5.jpg" ,
+        "designation":"Designation" ,
+        "developmentType":"Development Type"
+      },
+      {
+        "id":6,
+        "name":"Name" ,
+        "pic":"/idm/images/teamMembersPage/person6.jpg" ,
+        "video":"/idm/videos/teamMembersPage/person6.mp4",
+        "designation":"Designation" ,
+        "developmentType":"Development Type"
+      }
+    ]
+  }
+
+}  

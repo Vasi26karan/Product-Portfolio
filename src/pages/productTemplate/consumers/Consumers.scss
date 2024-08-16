@@ -1,0 +1,35 @@
+@import "../../../components/mixins/mixins";
+
+.consumersContainer {
+  padding: 15px;
+  min-height: 100vh;
+
+  h1 {
+    display: flex;
+    font-size: 40px;
+    color: #333;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  .cardsContainer {
+    @include card-container-flex;
+
+    .cardItem {
+      @include card-item;
+
+      .cardImage {
+        @include card-image;
+      }
+
+      .cardTitle {
+        @include card-title;
+      }
+
+      .cardDescription {
+        @include card-description;
+      }
+    }
+  }
+}

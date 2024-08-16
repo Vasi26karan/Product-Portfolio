@@ -1,0 +1,48 @@
+.referenceContainer {
+  padding: 20px;
+  min-height: 100vh;
+
+  h1 {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 24px;
+    width: 160px;
+
+    li {
+      margin-bottom: 20px;
+      font-size: 20px;
+      color: #444;
+      border-left: 5px solid #2575fc;
+      padding-left: 10px;
+
+      strong {
+        font-weight: bold;
+        color: #2575fc;
+      }
+
+      .link {
+        color: #007bff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        display: flex;
+        align-items: center;
+
+        &:hover {
+          color: #13c722;
+        }
+
+        .arrowIcon {
+          margin-left: 5px;
+          font-size: 20px;
+          color: #007bff;
+        }
+      }
+    }
+  }
+}

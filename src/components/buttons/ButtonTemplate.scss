@@ -1,0 +1,41 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: inherit;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+
+  .buttonIcon {
+    margin-right: 8px;
+    font-size: 24px;
+    color: #fff;
+    transition: transform 0.3s ease;
+  }
+
+  &:hover,
+  &.highlighted {
+    background-color: rgb(255, 255, 255);
+
+    .buttonIcon {
+      transform: scale(1.1);
+      color: #2575fc;
+    }
+
+    .buttonText {
+      font-size: 18px;
+      color: #2575fc;
+      text-transform: none;
+      position: relative;
+      display: inline-block;
+    }
+  }
+}

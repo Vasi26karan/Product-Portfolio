@@ -1,0 +1,155 @@
+@import "../../../components/mixins/mixins";
+
+.title {
+  @include flex-center;
+  flex-direction: column;
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+
+    span {
+      background: linear-gradient(267deg, #da7c25 15%, #b923e1 102.06%);
+      background-clip: text;
+      color: transparent;
+    }
+  }
+}
+
+.teamContainerWrapper {
+  @include flex-center;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+
+  .teamContainer {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    @include animation(fadeIn, 2.5s, ease-in-out);
+    width: 100%;
+    max-width: 960px;
+    box-sizing: border-box;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+
+    @include responsive-grid(2, 1200px);
+    @include responsive-grid(1, 800px);
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .teamCard {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      border: none;
+      width: 100%;
+      @include transition-effect(transform, 0.3s);
+      position: relative;
+      z-index: 0;
+      height: 450px;
+      @include animation(slideIn, 0.5s, ease-in-out);
+      transform: scale(1);
+
+      &:hover {
+        transform: scale(1.05);
+
+        .socialIcons {
+          transform: scale(1.15);
+          display: flex;
+        }
+      }
+
+      @keyframes slideIn {
+        from {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+
+      .teamImage {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        @include transition-effect(transform, 0.3s, ease-in-out);
+      }
+
+      .teamInfo {
+        padding: 20px;
+        text-align: center;
+        @include transition-effect(opacity, 0.3s, ease-in-out);
+      }
+
+      .teamName {
+        font-size: 24px;
+        margin: 10px 0;
+        color: #333;
+      }
+
+      .teamPosition {
+        font-size: 18px;
+        color: #777;
+      }
+
+      .teamDesignation {
+        font-size: 14px;
+        color: #555;
+        line-height: 1.5;
+        padding: 0;
+      }
+
+      .socialIcons {
+        display: none;
+        justify-content: center;
+        margin-top: 10px;
+        gap: 10px;
+
+        a {
+          color: #333;
+          font-size: 20px;
+          @include transition-effect(color, 0.3s);
+
+          &:hover {
+            color: #ea4335;
+          }
+
+          &:nth-child(2):hover {
+            color: #0073b1;
+          }
+        }
+      }
+    }
+
+    .teamCard::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.1);
+      z-index: -1;
+      @include transition-effect(opacity, 0.3s);
+      opacity: 0;
+    }
+  }
+}

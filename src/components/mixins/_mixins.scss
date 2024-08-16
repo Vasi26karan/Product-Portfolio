@@ -1,0 +1,74 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin transition-effect($property, $duration: 0.3s, $timing: ease-in-out) {
+  transition: #{$property} #{$duration} #{$timing};
+}
+
+@mixin animation($name, $duration: 2.5s, $timing: ease-in-out) {
+  animation: #{$name} #{$duration} #{$timing};
+}
+
+@mixin hover-effect($bg-color: #2575fc) {
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: $bg-color;
+
+    .teamInfo, .teamName, .teamPosition, .teamDesignation {
+      color: black;
+      opacity: 0.9;
+    }
+
+    &::before { opacity: 1; }
+  }
+}
+
+@mixin responsive-grid($columns, $breakpoint) {
+  @media (max-width: $breakpoint) {
+    grid-template-columns: repeat($columns, 1fr);
+  }
+}
+
+
+
+
+//consumers
+@mixin card-container-flex {
+  display: flex;
+  border: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+@mixin card-item {
+  max-width: 330px; 
+  height: 500px;
+  border: none;
+  cursor: pointer;
+}
+
+@mixin card-image {
+  height: 240px; 
+  object-fit: fill;
+
+}
+
+@mixin card-title {
+  font-size: 28px; 
+  font-weight: bold; 
+  margin-top: 10px;
+
+}
+
+@mixin card-description {
+  color: #333; 
+  height: 150px;
+  font-size: 16px; 
+}
+
