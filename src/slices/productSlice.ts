@@ -11,7 +11,7 @@ interface ProductState {
 export const fetchProductDetails = createAsyncThunk(
   "product/fetchDetails",
   async (productId: string) => {
-    const response = await fetch(`http://localhost:8000/${productId}`);
+    const response = await fetch(`https://github.com/Vasi26karan/Product-Portfolio/blob/main/server/data.json/${productId}`);
     const data = await response.json();
     return { productId, data };
   }
